@@ -1,70 +1,60 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🐻 Interactive Animated Login Form
 
-## Available Scripts
+A premium, "eyecatching" login experience built with **React** and **Rive**. This project features a state-of-the-art interaction where a mascot reacts to user behavior in real-time.
 
-In the project directory, you can run:
+![Mascot Preview](https://raw.githubusercontent.com/AbubakarSaddiqueKhan/rive_login_page_animation_flutter/main/assets/login-teddy.riv) 
+> *Note: Using the classic Teddy/Yeti Rive animation for high engagement.*
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎯 **Cursor Tracking**: The mascot's eyes follow the cursor as you type your email.
+- 🙈 **Privacy Interaction**: The mascot covers its eyes when the password field is focused.
+- 🌈 **Dynamic Background**: A breathtaking, animated linear gradient that flows seamlessly.
+- 🧊 **Glassmorphism UI**: Modern "frosted glass" card design for a premium feel.
+- 📱 **Fully Responsive**: Works beautifully on all screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or higher)
+- npm or yarn
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/moiz-260/Login-form-react-rive.git
+   cd Login-form-react-rive
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+## 🛠️ Technology Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React**: Core UI library.
+- **@rive-app/react-canvas**: For high-performance Rive animations.
+- **Vanilla CSS**: Custom professional styling with glassmorphism and animations.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎮 Interactive States
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Action | Mascot Reaction |
+| :--- | :--- |
+| **Email Focus** | Teddy starts "checking" and looking at the field. |
+| **Typing Email** | Teddy's head/eyes follow the character count. |
+| **Password Focus** | Teddy covers his eyes ("HandsUp" state). |
+| **Valid Submission**| Teddy cheers ("Success" trigger). |
+| **Invalid Submission** | Teddy shakes his head ("Fail" trigger). |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed with ❤️ for a "Grand Master" user experience.
